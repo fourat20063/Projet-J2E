@@ -44,7 +44,7 @@ public class AddtoCart extends HttpServlet {
 
 		String userId = userName;
 		String prodId = request.getParameter("pid");
-		int pQty = Integer.parseInt(request.getParameter("pqty")); // 1
+		int pQty = Integer.parseInt(request.getParameter("pqty")); 
 
 		CartServiceImpl cart = new CartServiceImpl();
 
